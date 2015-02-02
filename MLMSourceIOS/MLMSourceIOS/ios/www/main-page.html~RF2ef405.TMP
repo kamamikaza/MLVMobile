@@ -1,0 +1,92 @@
+
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="right slideing"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars-white"></i></a></div>
+        <div class="left" style="display:none;"><a href="index.html" class="back link"><i class="icon icon-back-white"></i><span>Back</span></a></div>
+        <div class="center sliding">ประกาศข่าว</div>
+
+    </div>
+</div>
+<div class="pages navbar-through">
+    <div data-page="main-page" class="page">
+        <div class="page-content">
+
+
+            <div id="main-frame">
+                <div id="box">
+                    <div id="content-top">
+                        <h1>
+                            <span>This webpage is not found</span>
+                        </h1>
+
+                    </div>
+                    <!-- Outer and inner divs are needed both for margins and sizing. -->
+                    <div id="help-box-outer">
+                        <div id="help-box-inner">
+                        </div>
+
+                        <div class="content-code">Error code: ERR_FILE_NOT_FOUND</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main-frame">
+                <div id="box">
+                    <div id="content-top">
+                        <h1>
+                            <span>This webpage is not found</span>
+                        </h1>
+
+                    </div>
+                    <!-- Outer and inner divs are needed both for margins and sizing. -->
+                    <div id="help-box-outer">
+                        <div id="help-box-inner">
+                        </div>
+
+                        <div class="content-code">Error code: ERR_FILE_NOT_FOUND</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main-frame">
+                <div id="box">
+                    <div id="content-top">
+                        <!--<h1>
+                            <span>This webpage is not found</span>
+                        </h1>-->
+                        <img src="news_img/p01.jpg"  />
+                    </div>
+                    <!-- Outer and inner divs are needed both for margins and sizing. -->
+                    <div id="help-box-outer">
+                        <div id="help-box-inner">
+                        </div>
+
+                        <div class="content-code">อ่านต่อ >></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main-frame">
+                <div id="box">
+                    <div id="content-top">
+                        <h1>
+                            <span>This webpage is not found</span>
+                        </h1>
+
+                    </div>
+                    <!-- Outer and inner divs are needed both for margins and sizing. -->
+                    <div id="help-box-outer">
+                        <div id="help-box-inner">
+                        </div>
+
+                        <div class="content-code">Error code: ERR_FILE_NOT_FOUND</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+

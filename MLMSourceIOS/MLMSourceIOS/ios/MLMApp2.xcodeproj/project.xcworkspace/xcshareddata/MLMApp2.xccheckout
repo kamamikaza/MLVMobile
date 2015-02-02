@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96BC0945-7AC5-48CB-A9F8-A1438714AA37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MLMApp2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>78D671F2A68D64AE4305C86CE9A79D73E95DB7FC</key>
+		<string>https://github.com/kamamikaza/MLVMobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MLMSourceIOS/MLMSourceIOS/ios/MLMApp2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>78D671F2A68D64AE4305C86CE9A79D73E95DB7FC</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kamamikaza/MLVMobile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>78D671F2A68D64AE4305C86CE9A79D73E95DB7FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>78D671F2A68D64AE4305C86CE9A79D73E95DB7FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MLVMobileGit</string>
+		</dict>
+	</array>
+</dict>
+</plist>

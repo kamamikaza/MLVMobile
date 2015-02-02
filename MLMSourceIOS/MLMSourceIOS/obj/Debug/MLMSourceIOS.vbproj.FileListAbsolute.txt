@@ -1,0 +1,10 @@
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\bin\MLMSourceIOS.dll.config
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\bin\MLMSourceIOS.dll
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\bin\MLMSourceIOS.pdb
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\bin\MLMSourceIOS.xml
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\obj\Debug\MLMSourceIOS.Resources.resources
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\obj\Debug\MLMSourceIOS.vbproj.GenerateResource.Cache
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\obj\Debug\MLMSourceIOS.dll
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\obj\Debug\MLMSourceIOS.xml
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\obj\Debug\MLMSourceIOS.pdb
+\\AEKDACHAS-IMAC\Documents\Projects\Phonegap\MLMMobile\VS.NET\IOS\MLMSourceIOS\MLMSourceIOS\obj\Debug\MLMSourceIOS.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{3A56ECB7-8B7D-470D-8080-F5925458D12A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MLMSourceIOS</RootNamespace>
+    <AssemblyName>MLMSourceIOS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MLMSourceIOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>MLMSourceIOS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="ios\www\build\about.html" />
+    <Content Include="ios\www\build\css\framework7.css" />
+    <Content Include="ios\www\build\css\framework7.min.css" />
+    <Content Include="ios\www\build\css\framework7.rtl.css" />
+    <Content Include="ios\www\build\css\framework7.rtl.min.css" />
+    <Content Include="ios\www\build\css\my-app.css" />
+    <Content Include="ios\www\build\form.html" />
+    <Content Include="ios\www\build\img\i-f7.png" />
+    <Content Include="ios\www\build\img\i-form-calendar.png" />
+    <Content Include="ios\www\build\img\i-form-checkbox-black.png" />
+    <Content Include="ios\www\build\img\i-form-checkbox-blue.png" />
+    <Content Include="ios\www\build\img\i-form-checkbox-white.png" />
+    <Content Include="ios\www\build\img\i-form-comment.png" />
+    <Content Include="ios\www\build\img\i-form-email.png" />
+    <Content Include="ios\www\build\img\i-form-gender.png" />
+    <Content Include="ios\www\build\img\i-form-name.png" />
+    <Content Include="ios\www\build\img\i-form-password.png" />
+    <Content Include="ios\www\build\img\i-form-radio-black.png" />
+    <Content Include="ios\www\build\img\i-form-radio-blue.png" />
+    <Content Include="ios\www\build\img\i-form-radio-white.png" />
+    <Content Include="ios\www\build\img\i-form-settings.png" />
+    <Content Include="ios\www\build\img\i-form-tel.png" />
+    <Content Include="ios\www\build\img\i-form-toggle.png" />
+    <Content Include="ios\www\build\img\i-form-url.png" />
+    <Content Include="ios\www\build\index.html" />
+    <Content Include="ios\www\build\js\framework7.js" />
+    <Content Include="ios\www\build\js\framework7.min.js" />
+    <Content Include="ios\www\build\js\my-app.js" />
+    <Content Include="ios\www\build\services.html" />
+    <Content Include="ios\www\cordova.js" />
+    <Content Include="ios\www\cordova_plugins.js" />
+    <Content Include="ios\www\css\MainStyle copy.css" />
+    <Content Include="ios\www\css\MainStyle.css" />
+    <Content Include="ios\www\dist_xx\about.html" />
+    <Content Include="ios\www\dist_xx\css\framework7.css" />
+    <Content Include="ios\www\dist_xx\css\framework7.min.css" />
+    <Content Include="ios\www\dist_xx\css\framework7.rtl.css" />
+    <Content Include="ios\www\dist_xx\css\framework7.rtl.min.css" />
+    <Content Include="ios\www\dist_xx\css\my-app.css" />
+    <Content Include="ios\www\dist_xx\form.html" />
+    <Content Include="ios\www\dist_xx\img\i-f7.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-calendar.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-checkbox-black.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-checkbox-blue.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-checkbox-white.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-comment.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-email.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-gender.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-name.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-password.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-radio-black.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-radio-blue.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-radio-white.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-settings.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-tel.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-toggle.png" />
+    <Content Include="ios\www\dist_xx\img\i-form-url.png" />
+    <Content Include="ios\www\dist_xx\index.html" />
+    <Content Include="ios\www\dist_xx\js\framework7.js" />
+    <Content Include="ios\www\dist_xx\js\framework7.min.js" />
+    <Content Include="ios\www\dist_xx\js\my-app.js" />
+    <Content Include="ios\www\dist_xx\services.html" />
+    <Content Include="ios\www\documentUpload.html" />
+    <Content Include="ios\www\feeds-back.html" />
+    <Content Include="ios\www\img\bg.jpg" />
+    <Content Include="ios\www\img\home.png" />
+    <Content Include="ios\www\img\icon-114.png" />
+    <Content Include="ios\www\img\icon-120.png" />
+    <Content Include="ios\www\img\icon-144.png" />
+    <Content Include="ios\www\img\Icon-152.png" />
+    <Content Include="ios\www\img\icon-57.png" />
+    <Content Include="ios\www\img\icon-72.png" />
+    <Content Include="ios\www\img\icon-76.png" />
+    <Content Include="ios\www\img\location.png" />
+    <Content Include="ios\www\img\logo.png" />
+    <Content Include="ios\www\img\none_content.png" />
+    <Content Include="ios\www\img\thumb.jpg" />
+    <Content Include="ios\www\img\thumb.png" />
+    <Content Include="ios\www\index.html" />
+    <Content Include="ios\www\jade\index.jade" />
+    <Content Include="ios\www\jquery.min.js" />
+    <Content Include="ios\www\js\gmaps.js" />
+    <Content Include="ios\www\js\googleMaps.js" />
+    <Content Include="ios\www\js\head.js" />
+    <Content Include="ios\www\js\imagesloaded.js" />
+    <Content Include="ios\www\js\imagesloaded.pkgd.js" />
+    <Content Include="ios\www\js\jquery.lazyload.js" />
+    <Content Include="ios\www\js\jquery.unveil.js" />
+    <Content Include="ios\www\js\kitchen-sink.js" />
+    <Content Include="ios\www\js\InitPageScript.js" />
+    <Content Include="ios\www\js\MainScript.js" />
+    <Content Include="ios\www\js\DataLiteScript.js" />
+    <Content Include="ios\www\js\MLVScript Copy.js" />
+    <Content Include="ios\www\js\ConnectionDeviceScript.js" />
+    <Content Include="ios\www\main-page.html" />
+    <Content Include="ios\www\location.html" />
+    <Content Include="ios\www\news_img\p01.jpg" />
+    <Content Include="ios\www\news_img\p02.jpg" />
+    <Content Include="ios\www\news_img\p03.jpg" />
+    <Content Include="ios\www\news_img\p04.jpg" />
+    <Content Include="ios\www\news_img\p05.jpg" />
+    <Content Include="ios\www\PushNotification.js" />
+    <Content Include="ios\www\js\todo7.js" />
+    <Content Include="ios\www\kitchen-sink\about.html" />
+    <Content Include="ios\www\kitchen-sink\accordion.html" />
+    <Content Include="ios\www\kitchen-sink\contacts.html" />
+    <Content Include="ios\www\kitchen-sink\core-features.html" />
+    <Content Include="ios\www\kitchen-sink\css\kitchen-sink.css" />
+    <Content Include="ios\www\kitchen-sink\deep-2.html" />
+    <Content Include="ios\www\kitchen-sink\deep-navbar-2.html" />
+    <Content Include="ios\www\kitchen-sink\deep-navbar-3.html" />
+    <Content Include="ios\www\kitchen-sink\deep-navbar.html" />
+    <Content Include="ios\www\kitchen-sink\forms-buttons.html" />
+    <Content Include="ios\www\kitchen-sink\forms-checkboxes.html" />
+    <Content Include="ios\www\kitchen-sink\forms-elements.html" />
+    <Content Include="ios\www\kitchen-sink\forms-selects.html" />
+    <Content Include="ios\www\kitchen-sink\forms-storage.html" />
+    <Content Include="ios\www\kitchen-sink\forms.html" />
+    <Content Include="ios\www\kitchen-sink\grid.html" />
+    <Content Include="ios\www\kitchen-sink\hide-navbar-toolbar.html" />
+    <Content Include="ios\www\kitchen-sink\img\beach.jpg" />
+    <Content Include="ios\www\kitchen-sink\img\lock.jpg" />
+    <Content Include="ios\www\kitchen-sink\img\monkey.jpg" />
+    <Content Include="ios\www\kitchen-sink\img\mountains.jpg" />
+    <Content Include="ios\www\kitchen-sink\index copy.html" />
+    <Content Include="ios\www\kitchen-sink\index.html" />
+    <Content Include="ios\www\kitchen-sink\infinite-scroll-load.php" />
+    <Content Include="ios\www\kitchen-sink\infinite-scroll.html" />
+    <Content Include="ios\www\kitchen-sink\jade\about.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\accordion.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\contacts.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\core-features.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\deep-navbar-2.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\deep-navbar-3.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\deep-navbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\forms-buttons.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\forms-checkboxes.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\forms-elements.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\forms-selects.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\forms-storage.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\forms.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\grid.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\hide-navbar-toolbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\index.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\infinite-scroll.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\list-view.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\media-lists.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\messages.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\modals.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\navbars-toolbars.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\no-navbar-toolbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\no-navbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\no-toolbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\notifications.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\panels.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\photo-browser.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\popover.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\preloader.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\pull-to-refresh.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\searchbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider-custom.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider-horizontal.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider-multiple.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider-nested.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider-space-between.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider-vertical.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\slider.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\sortable-list.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\swipe-delete.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\tabbar-labels.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\tabbar.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\tabs.jade" />
+    <Content Include="ios\www\kitchen-sink\jade\transitions.jade" />
+    <Content Include="ios\www\kitchen-sink\js\kitchen-sink.js" />
+    <Content Include="ios\www\kitchen-sink\less\kitchen-sink.less" />
+    <Content Include="ios\www\kitchen-sink\list-view.html" />
+    <Content Include="ios\www\kitchen-sink\media-lists.html" />
+    <Content Include="ios\www\kitchen-sink\messages.html" />
+    <Content Include="ios\www\kitchen-sink\modals.html" />
+    <Content Include="ios\www\kitchen-sink\navbars-toolbars.html" />
+    <Content Include="ios\www\kitchen-sink\no-navbar-toolbar.html" />
+    <Content Include="ios\www\kitchen-sink\no-navbar.html" />
+    <Content Include="ios\www\kitchen-sink\no-toolbar.html" />
+    <Content Include="ios\www\kitchen-sink\notifications.html" />
+    <Content Include="ios\www\kitchen-sink\panel-right2.html" />
+    <Content Include="ios\www\kitchen-sink\panel-right3.html" />
+    <Content Include="ios\www\kitchen-sink\panels.html" />
+    <Content Include="ios\www\kitchen-sink\photo-browser.html" />
+    <Content Include="ios\www\kitchen-sink\popover.html" />
+    <Content Include="ios\www\kitchen-sink\preloader.html" />
+    <Content Include="ios\www\kitchen-sink\pull-to-refresh.html" />
+    <Content Include="ios\www\kitchen-sink\searchbar.html" />
+    <Content Include="ios\www\kitchen-sink\slider-custom.html" />
+    <Content Include="ios\www\kitchen-sink\slider-horizontal.html" />
+    <Content Include="ios\www\kitchen-sink\slider-multiple.html" />
+    <Content Include="ios\www\kitchen-sink\slider-nested.html" />
+    <Content Include="ios\www\kitchen-sink\slider-space-between.html" />
+    <Content Include="ios\www\kitchen-sink\slider-vertical.html" />
+    <Content Include="ios\www\kitchen-sink\slider.html" />
+    <Content Include="ios\www\kitchen-sink\sortable-list.html" />
+    <Content Include="ios\www\kitchen-sink\swipe-delete.html" />
+    <Content Include="ios\www\kitchen-sink\tabbar-labels.html" />
+    <Content Include="ios\www\kitchen-sink\tabbar.html" />
+    <Content Include="ios\www\kitchen-sink\tabs.html" />
+    <Content Include="ios\www\kitchen-sink\transitions.html" />
+    <Content Include="ios\www\less\todo7.less" />
+    <Content Include="ios\www\manifest.php" />
+    <Content Include="ios\www\media-lists.html" />
+    <Content Include="ios\www\plugins\com.ionic.keyboard\www\keyboard.js" />
+    <Content Include="ios\www\plugins\com.phonegap.plugins.sqlite\www\SQLitePlugin.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.battery-status\www\battery.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.camera\www\Camera.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.camera\www\CameraConstants.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.camera\www\CameraPopoverOptions.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.camera\www\ios\CameraPopoverHandle.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.console\www\console-via-logger.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.console\www\logger.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\Contact.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactAddress.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactField.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactFieldType.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactFindOptions.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactName.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ContactOrganization.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\contacts.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ios\Contact.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.contacts\www\ios\contacts.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.device-orientation\www\compass.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.device-orientation\www\CompassError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.device-orientation\www\CompassHeading.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.device\www\device.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.dialogs\www\notification.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file-transfer\www\FileTransfer.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file-transfer\www\FileTransferError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\DirectoryEntry.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\DirectoryReader.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\Entry.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\File.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileEntry.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileReader.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileSystem.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\fileSystemPaths.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\fileSystems-roots.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\fileSystems.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileUploadOptions.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileUploadResult.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\FileWriter.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\Flags.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\ios\FileSystem.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\LocalFileSystem.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\Metadata.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\ProgressEvent.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\requestFileSystem.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.geolocation\www\Coordinates.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.geolocation\www\geolocation.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.geolocation\www\Position.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.geolocation\www\PositionError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.globalization\www\globalization.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.globalization\www\GlobalizationError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.inappbrowser\www\inappbrowser.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\capture.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\CaptureAudioOptions.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\CaptureError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\CaptureImageOptions.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\CaptureVideoOptions.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\MediaFile.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media-capture\www\MediaFileData.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media\www\Media.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.media\www\MediaError.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.network-information\www\Connection.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.network-information\www\network.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.statusbar\www\statusbar.js" />
+    <Content Include="ios\www\plugins\org.apache.cordova.vibration\www\vibration.js" />
+    <Content Include="ios\www\SQLitePlugin.js" />
+    <Content Include="ios\www\test.html" />
+    <Content Include="ios\www\ToDo.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2039</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1927/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
